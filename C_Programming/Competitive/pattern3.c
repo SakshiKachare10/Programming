@@ -1,12 +1,12 @@
-// 5  #  4  #  3  #  2  #  1  #
+//  1  *  2  *  3  *  4  *  5  *
 #include<stdio.h>
 
 void Pattern(int iNo)
 {
     int iCnt = 0;
-    for(iCnt = iNo ; iCnt >= 1 ; iCnt--)
+    for(iCnt = 1 ; iCnt <= iNo ; iCnt++)
     {
-        printf(" %d  #",iCnt);
+        printf(" %d  *",iCnt);
     }
 
 }

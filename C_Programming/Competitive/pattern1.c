@@ -1,12 +1,14 @@
-// 5  #  4  #  3  #  2  #  1  #
+// A  B  C  D  E
+
 #include<stdio.h>
 
 void Pattern(int iNo)
 {
     int iCnt = 0;
-    for(iCnt = iNo ; iCnt >= 1 ; iCnt--)
+    char ch = '\0';
+    for(iCnt = 0 , ch = 'A'; iCnt < iNo ; iCnt++,ch++)
     {
-        printf(" %d  #",iCnt);
+       printf("%c\t",ch);
     }
 
 }
